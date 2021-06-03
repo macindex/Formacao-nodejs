@@ -1,0 +1,96 @@
+Recurso presente no nodejs
+
+
+Forma de dividir o código em partes
+
+Funções
+
+
+function soma(a, b) {
+	return a + b
+}
+
+function mult(a, b) {
+	return a + b
+}
+
+function sub(a, b) {
+	return a - b
+}
+
+function div(a, b) {
+	return a / b
+}
+
+
+
+console.log(soma(10, 20))
+var resultadoMult = mult(10,10)
+var resultadoSub = mult(10,10)
+console.log(div(10, 2))
+console.log(resultadoMult)
+console.log(resultadoSub)
+
+Criamos uma função que esta em outro lugar, para esta ser utilizada em outro arquivo temos de exportar.
+
+
+function div(a, b) {
+	return a / b
+}
+
+module.exports = divisao;
+
+_______________
+
+No arquivo que irá receber, importando em uma variável
+
+const divisao = require("./divisao")
+
+console.llog(divisao(200, 10))
+
+
+
+
+Multiplas funções a serem exportadas
+
+module.exports = {
+	soma,
+	mult,
+	sub,
+	div
+}
+
+
+______________________
+arquivo que irá receber as funções
+
+const calculadora = require("./calculadora")
+
+
+
+console.log(calculadora.mult(100, 10))
+console.log(calculadora.soma(100, 10))
+
+
+// exportar variáveis
+
+const nome = "minha calculadora V1"
+
+module.exports = {
+	soma,
+	mult,
+	sub,
+	div,
+	nome
+}
+______________________
+arquivo que irá receber as funções
+
+console.log(calculadora.nome)
+
+// Para alterar o nome da calculadora
+
+calculadora.nome = "calculadora do claudio"
+
+
+/**/

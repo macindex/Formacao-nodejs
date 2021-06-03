@@ -1,0 +1,52 @@
+JS - Linguagem de navegadores
+
+
+
+. Aplicações web backend
+
+
+Nodejs: Javascript no backend
+
+
+Navegadores têm o interpretador
+
+Interpretador que tem a função de entender os códigos e executar
+
+Iterpretador do chrome V8
+
+Nodejs => Código JS fora do navegador
+
+Nodejs compreende e executa js fora dos navegadores
+
+. Muito leve
+. Muito rápido
+. usa js
+. tem um dos maiores ecossistemas do mundo
+. está sendo utilizado fortemente no mercado
+
+:: Requisições por segundo ::
+
+PHP 120.000
+Node 1.200.000 
+
+
+Paypal
+uber
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

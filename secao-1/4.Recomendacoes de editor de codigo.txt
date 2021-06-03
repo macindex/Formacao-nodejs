@@ -1,0 +1,12 @@
+Utilizado durante a aula VSCode
+
+
+Funcionalidades do vscode:
+
+. Debug
+
+
+Sublime text recomendado
+
+
+Atom text recomendado

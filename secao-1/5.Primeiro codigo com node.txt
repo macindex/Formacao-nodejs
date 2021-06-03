@@ -1,0 +1,26 @@
+Criada pasta "inicio"
+
+/app.js
+
+// Arquivo node é js
+
+
+console.log("Hello world")
+
+
+.prompt
+.navegar ao dir
+.executar node nomedoarquivo.js
+
+var mostarSite = false
+const site = "https://www.guiadoprogramador.com"
+
+console.log("Hello world")
+console.log("Meu nome é claudio")
+console.log("Aprendizdo da udemy")
+
+if(mostrarSite) {
+	console.log(site);
+}
+	
+
