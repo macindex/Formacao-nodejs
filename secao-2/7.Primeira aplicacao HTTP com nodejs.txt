@@ -1,0 +1,16 @@
+const http = require("http")
+
+// Nativo do node
+
+http.createServer(function(require, response){
+	response.end("<h1>Bem vindo ao meu site!</h1>")
+}).listen(3000)
+
+console.log("servidor rodando!")
+
+_____________________
+cmd
+node app.js
+
+
+
