@@ -1,0 +1,12 @@
+Utilização do NODEMON
+
+npm install nodemon -g
+
+nodemon nomedoarquivo.js
+
+
+
+
+
+
+

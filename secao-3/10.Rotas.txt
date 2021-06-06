@@ -1,0 +1,35 @@
+Rotas
+
+Caminhos diferentes para acessar páginas diferentes
+
+
+
+const express = require("express")
+
+const app = express()
+
+
+
+app.get("/", function(req, res){
+	 	res.send("Bem vindo ao guia do programador")
+})
+
+
+app.get("/blog", function(req, res){
+	 	res.send("Bem vindo ao guia do programador")
+})
+
+
+app.get("/canal", function(req, res){
+	 	res.send("Bem vindo ao meu canal")
+})
+
+
+
+app.listen(3000, function(err){
+	if (err){
+		console.log("ocorreu um erro!")
+	}else{
+		console.log("Servidor iniciado com sucesso!")
+	}
+})

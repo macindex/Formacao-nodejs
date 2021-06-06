@@ -1,0 +1,36 @@
+Express
+
+Framework para desenvolvimento
+
+Super biblioteca que ajuda a fazer uma tarefa
+
+pasta express
+
+
+NPM - Gerenciador de pacotes do node
+
+
+npm -v
+
+npm init (inicia um projeto nodejs)
+
+
+package.json
+
+
+npm i express --save
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

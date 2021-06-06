@@ -1,0 +1,29 @@
+Criando index.js
+
+
+const express = require("express")
+
+const app = express()
+
+app.listen(3000, function(err){
+	if (err){
+		console.log("ocorreu um erro!")
+	}else{
+		console.log("Servidor iniciado com sucesso!")
+	}
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
