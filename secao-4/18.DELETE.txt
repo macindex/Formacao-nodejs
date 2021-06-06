@@ -1,0 +1,13 @@
+SELECT * FROM usuarios;
+
+
+DELETE FORM usuarios // Deleta toda tabela
+
+
+DELETE FROM usuarios WHERE nome = "claudio";
+
+
+
+
+
+

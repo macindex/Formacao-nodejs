@@ -1,0 +1,49 @@
+Sistema de Gerenciamento de Banco de Dados
+
+Community Edition
+
+Mysql Community Server
+
+Msql installer
+
+. Server only
+. Developer machine
+
+
+
+Finish
+
+
+Executando Mysql
+
+Precisamos linkar o mysql
+
+Copiar o link da pasta bin
+
+E colar em variáveis de ambiente
+
+
+mysql command line
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

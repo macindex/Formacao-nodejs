@@ -8,3 +8,7 @@ Não são amigáveis
 
 Opcionais
 
+app.get("/blog", function(req, res){
+	var canal = req.query["canal"]	 	
+res.send(canal)
+})

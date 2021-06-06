@@ -1,0 +1,15 @@
+INSERT INTO usuarios( nome, email, idade) VALUES (
+	"Claudio",
+	"claudio.holanda@gmail.com",
+	35
+);
+
+
+SELECT * FROM usuarios;
+
+SELECT * FROM usuarios WHERE idade = 8;
+
+SELECT * FROM usuarios WHERE nome = "claudio";
+
+SELECT * FROM usuarios WHERE idade >= 18;
+

@@ -1,0 +1,35 @@
+Criando tabela
+
+
+mysql -h localhost -u root -p
+
+show databases;
+
+_________________________________
+CREATE DATABASE sistemaDeCadastro;
+
+_____________________
+USE sistemaDeCadastro
+
+Em uma Tabela temos colunas e linhas
+
+Mysql guarda dados em formato de tabela
+
+CREATE TABLE usuarios(
+	nome VARCHAR(50),
+	email VARCHAR(100),
+	idade INT
+);
+
+
+SHOW TABLES;
+
+
+DESCRIBE usuarios;
+
+
+
+
+
+
+

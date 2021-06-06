@@ -1,0 +1,11 @@
+UPDATE usuarios SET nome = "claudio holanda"
+
+// Todos os registros nome serão alterados
+
+UPDATE usuarios SET nome = "claudio holanda" WHERE nome = "claudio"
+
+// Desta forma será alterada apenas alinha que tem o nome claudio
+
+
+
+
