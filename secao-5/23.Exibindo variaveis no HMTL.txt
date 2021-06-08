@@ -1,0 +1,55 @@
+EJS 
+
+Cria variáveis no backend e passa ao html
+
+
+var nome = "Claudio holanda"
+var lang = "javascript"
+
+res.render("index",{
+	nome: nome,
+	lang: lang,
+	empresa: "Guia do programador",
+	salario: 8000
+})
+
+
+
+index.ejs
+
+<%= nome%>
+<%= lang%>
+<%= empresa%>
+<%= salario%>
+
+<p>Nome: <%= nome%></p>
+<p>Linguagem favorita: <%= lang%>
+<p><%= empresa%>
+<p>Salário: <%= inscritos%>
+
+
+
+// Capturando parâmetros da rota
+
+app.get("/:nome/:lang",(req, res)=>{
+
+var nome = "Claudio holanda"
+var lang = "javascript"
+
+res.render("index",{
+	nome: nome,
+	lang: lang,
+	empresa: "Guia do programador",
+	salario: 8000
+})
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+Criar pasta e abrir no editor de código
+
+dir GuiaDePerguntas
+
+npm init
+
+uma plataforma de perguntas e resposta estilo yahoo respostas
+
+index.js
+
+
+// Express, Mysql e EJS
+
+EJS = Motor de template, permite que o html ganhe poderes
+
+Desenha os arquivos html no node
+
+
+// index.js
+
+npm i express --save
+
+
+npm i ejs --save
+
+
+
+
+
+
+

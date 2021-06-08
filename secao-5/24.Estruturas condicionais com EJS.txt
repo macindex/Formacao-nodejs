@@ -1,0 +1,16 @@
+app.get("/:nome/:lang", (req, res) => {
+    var nome = req.params.nome;
+    var lang = req.params.lang;
+    var exibirMsg = false;
+  
+    res.render("index", {
+      nome: nome,
+      lang: lang,
+      empresa: "Guia do programador",
+      salario: 8000,
+      mag: exibirMsg
+    });
+
+<% if(msg == true) { %>
+	<h3>isso é uma msg de erro!</h3>
+<%}%>
