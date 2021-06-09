@@ -36,18 +36,3 @@ app.get("/", (req, res) => {
     console.log("App rodando!");
   });
 
-_________________________
-
-<% produtos.forEach(function(produto) {%>
-	<%= produto.nome %><br>
-	<%= produto.preco %>
-<% }) %>
-
-
-
-
-
-
-
-
-
