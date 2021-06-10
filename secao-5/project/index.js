@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
   var lang = "javascript";
   var exibirMsg = true;
 
-  res.render("index", {
+  res.render("aula-29", {
     nome: nome,
     lang: lang,
     empresa: "Guia do programador",

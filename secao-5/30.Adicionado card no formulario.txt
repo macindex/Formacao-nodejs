@@ -1,0 +1,17 @@
+Recurso CARD do bootstrap
+
+
+Alterado html
+
+  <div class="card">
+        <div class="card-header">
+            <h1>Realizar perguntas</h1>
+        </div>
+        <div class="card-body">
+              <form>
+              <label>Título</label>
+              <input type="text" placeholder="titulo" class="form-control">
+              <label>Descrição</label>
+              <textarea placeholder="Descreva sua pergunta aqui" class="form-control"></textarea>
+              <button class="btn btn-success">Perguntar</button>
+    </form>
