@@ -1,0 +1,6 @@
+Nova versão partials
+
+antes:<%= include partials/header.ejs %>
+
+atual: <%= include('partials/header.ejs'); %>
+

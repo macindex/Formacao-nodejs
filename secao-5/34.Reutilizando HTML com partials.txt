@@ -1,0 +1,37 @@
+Nav-bar presente em todas páginas html
+
+Partials= partes de layouts reutilizadas
+
+
+view/partials
+
+header.ejs
+navbar.ejs
+
+footer.ejs
+
+ambos componentes pegam os componentes prontos do perguntas.ejs
+
+No caso do footer.ejs ele vai pegar todos scripts do final da página e replicar.
+
+Estes campos serão recortados do arquivo original
+
+No header será colocado
+
+<%- include partials/header.ejs %>
+
+desfazendo commit 
+
+git reset HEAD~1
+
+
+
+
+
+
+
+
+
+
+
+
