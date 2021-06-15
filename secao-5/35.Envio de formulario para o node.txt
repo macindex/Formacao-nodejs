@@ -1,0 +1,5 @@
+Formulário será enviado para uma rota
+
+app.post("/salvarpergunta", (req, res) =>{
+	res.send("Formulario recebido")	;
+});
