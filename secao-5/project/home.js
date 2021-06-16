@@ -5,12 +5,21 @@ const app = express();
 
 app.set("view engine", "ejs");
 app.use(express.static('public'));
-app.use(express.json())
-
+app.use(express.json());
+const connection = require("./db/database.js");
 
 // app.use(express.urlencoded({ extended: true}))
-app.use(express.urlencoded());
 
+const connection = require("./db/database")
+
+connection
+	.authenticate()
+	.then(() => {
+	console.log("Conexão estabelecida com sucesso!")
+})
+.catch((Erro)=>{
+	console.log("Conexão não estabelecida")
+})
 
 app.get("/perguntar", (req, res) => {
   res.render("perguntar");

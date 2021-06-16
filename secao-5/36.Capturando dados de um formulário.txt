@@ -1,0 +1,10 @@
+INSTALAÇÃO BODY-PARSER
+
+
+npm i body-parser --save
+
+home.js
+
+const bodyParser = require("body-parser")
+
+app.use(bodyParser.json());

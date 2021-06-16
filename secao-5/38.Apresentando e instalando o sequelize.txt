@@ -1,0 +1,10 @@
+Manipulação do bdd através de JS
+
+npm i sequelize
+
+npm i mysql2
+
+
+
+
+
