@@ -1,24 +1,24 @@
 const express = require("express");
 const app = express();
 // const bodyParser = require("body-parser");
+const connection = require("./db/database.js");
 
 
 app.set("view engine", "ejs");
 app.use(express.static('public'));
 app.use(express.json());
-const connection = require("./db/database.js");
 
 // app.use(express.urlencoded({ extended: true}))
 
-const connection = require("./db/database")
+// const connection = require("./db/database")
 
 connection
 	.authenticate()
 	.then(() => {
 	console.log("Conexão estabelecida com sucesso!")
 })
-.catch((Erro)=>{
-	console.log("Conexão não estabelecida")
+.catch((msgErro)=>{
+	console.log(msgErro, "Conexão não estabelecida")
 })
 
 app.get("/perguntar", (req, res) => {

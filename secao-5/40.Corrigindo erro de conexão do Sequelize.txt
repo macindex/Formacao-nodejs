@@ -1,0 +1,9 @@
+Library mysql2 não atualizou para o novo protocolo de autenticação
+
+1º caminho: trabalhar com a versão 5.7
+
+2º caminho: ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password  BY '619302$5847'
+
+
+
+

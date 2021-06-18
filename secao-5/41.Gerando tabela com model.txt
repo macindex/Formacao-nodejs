@@ -1,0 +1,53 @@
+Gerando tabela com model
+
+Pergunta
+___________
+title
+description
+
+/db
+Pergunta.js
+
+model inicia com letra Maiuscula
+
+const Sequelize = require("sequelize")
+const connection = require(./db)
+
+const Pergunta = connection.define('pergunta', {
+	titulo: {
+		type: Sequelize.STRING,
+		allowNull: false
+	},
+	descricao: {
+		type: Sequelize.TEXT,
+		allowNull: false
+	}
+});
+
+// Este comando cria apenas uma vez
+Pergunta.sync({ force: false }).then(() => {
+	console.log("Tabela criada!")
+})
+
+ou
+
+Pergunta.sync({ force: false }).then(() => {});
+
+//index ou home
+
+const  perguntaModel = require("./db/Pergunta");
+
+// Model é uma representação da tabela com JS
+
+
+
+
+
+
+
+
+
+
+
+
+
