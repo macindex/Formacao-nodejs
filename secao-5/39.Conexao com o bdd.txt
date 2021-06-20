@@ -1,3 +1,6 @@
+// Alternativas ao body-parser
+// https://www.ti-enxame.com/pt/node.js/o-que-o-body-parser-faz-com-o-express/825575205/
+
 Dir db
 database.js
 

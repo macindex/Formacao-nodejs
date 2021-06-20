@@ -1,16 +1,25 @@
 const express = require("express");
 const app = express();
+const consign = require('consign');
 // const bodyParser = require("body-parser");
-const connection = require("./db/database.js");
-
+const connection = require("./public/db/database");
+const  perguntaModel = require("./public/db/pergunta");
 
 app.set("view engine", "ejs");
 app.use(express.static('public'));
 app.use(express.json());
 
-// app.use(express.urlencoded({ extended: true}))
-
-// const connection = require("./db/database")
+app.use(express.urlencoded({ extended: true}))
+const connection = require("./public/db/database")
+module.exports = () => {    
+    const app = express();
+    app.use(express.json())
+    app.use(express.urlencoded({ extended: true}))
+    consign()
+        .include('db')
+        .into(app)
+    return app;
+}
 
 connection
 	.authenticate()
@@ -36,8 +45,6 @@ app.get("/home", (req, res) => {
   
 // 	res.send("Formulário recebido titulo " + titulo + " " + "descricao " + descricao);
 // });
-
-
 
 app.listen(3000, () => {
         console.log("App rodando!");
